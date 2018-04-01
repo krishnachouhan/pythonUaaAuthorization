@@ -8,7 +8,7 @@ class Authorization:
     AUTH_CODE = ""
     OAUTH_URL = ""
     #Optional, a broad helper for troubleshooting. Assign True to activate.
-    
+    VERBOSE_TROUBLESHOOTING = False    
 
     def troubleshootMe(self, content, text, headers):
         if "Bad Credentials" in text:
